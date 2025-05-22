@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cupcakebg2"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+
+        <!-- Cupcake Image -->
+
+        <!-- Picked Flavor -->
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/bagel_fat_one"
+            android:text="Your Perfect Match 🍰"
+            android:textColor="#474242"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/eventText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/bakbak_one"
+            android:text="For: [Event]"
+            android:textColor="#474242"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/funCommentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/bakbak_one"
+            android:text="Your cupcake story goes here..."
+            android:textAlignment="center"
+            android:textColor="#474242"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/thankYouText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="@font/bakbak_one"
+            android:text="Thank you for using Cupcake Match!"
+            android:textColor="#474242"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#70C8F2"
+            android:text="Back to Home"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFB6C1"
+            android:text="Start Over"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/flavorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/bakbak_one"
+            android:text="You picked: [Flavor]"
+            android:textColor="#474242"
+            android:textSize="20sp" />
+
+        <!-- Picked Event -->
+
+        <!-- Fun Comment -->
+
+        <!-- Thank You Message -->
+
+        <!-- Buttons -->
+
+    </LinearLayout>
+</ScrollView>
